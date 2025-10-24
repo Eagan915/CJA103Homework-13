@@ -29,6 +29,14 @@ public class Hw1 {
 //		System.out.println(5 + 5); //數值間的相加
 //		System.out.println(5 + '5'); //'5'被看成char型態的資料，對應到的ASCII是53，所以變成5+53
 //		System.out.println(5 + "5"); //"5"是字串，因此會變成字串串接
+		
+		
+		for (int i = 1; i <= 6; i++) {
+			for(int x = 1 ; x <= i ; x++) {
+				char z = (char)('A'+ (i - 1)); // ('A'+ (i - 1)) = 65 + (i - 1)
+				System.out.print(z);
+			}
+		}
 	}
 
 }
